@@ -1,0 +1,7 @@
+# Use the following commands to set up the environment to use react-native-navigation Stack Navigator
+npm install @react-navigation/stack react-native-gesture-handler
+cat "import 'react-native-gesture-handler';" > gesture-handler.native.js
+touch gesture-handler.js
+
+# Add the following line on the top of the App.js/App.tsx
+import './gesture-handler';
