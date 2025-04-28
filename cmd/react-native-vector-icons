@@ -2,6 +2,7 @@
 npm install react-native-vector-icons
 
 # Edit android/app/build.gradle as following:
-echo 'apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")' >> android/app/buid.gradle
+echo -e "\n" >> ./android/app/buid.gradle
+echo 'apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")' >> ./android/app/buid.gradle
 
 
