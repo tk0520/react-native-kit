@@ -23,8 +23,7 @@ const styles = StyleSheet.create({
   block: {
     flex: 1,
     borderRadius: 20,   
-    overflow: "hidden", 
-    marginHorizontal: 5,       
+    overflow: "hidden",        
   },
   wrapper: {
     flex: 1,
@@ -32,7 +31,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#87A1FE",
-    paddingHorizontal: 20,
     gap: 8,
   },
   text: {
